@@ -102,8 +102,7 @@ var d3_time_scaleSteps = [
   108e5,  // 3-hour
   216e5,  // 6-hour
   432e5,  // 12-hour
-  864e5,  // 1-day
-  1728e5, // 2-day
+  864e5,  // 1-day 
   6048e5, // 1-week
   2592e6, // 1-month
   7776e6, // 3-month
@@ -124,7 +123,6 @@ var d3_time_scaleLocalMethods = [
   [d3_time.hour, 6],
   [d3_time.hour, 12],
   [d3_time.day, 1],
-  [d3_time.day, 2],
   [d3_time.week, 1],
   [d3_time.month, 1],
   [d3_time.month, 3],
